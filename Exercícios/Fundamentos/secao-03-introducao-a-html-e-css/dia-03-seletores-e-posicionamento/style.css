@@ -1,6 +1,7 @@
 
 body {
-   background-color: turquoise; 
+   background-color: grey; 
+   padding: 3%;
 }
 h1 {
    color: red;
@@ -22,13 +23,18 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 .image {
     height: 400px;
+    position: relative;
 }
 
 .meunome {
     text-align: center;
 }
 
-
+.minhades {
+    position: absolute;
+    top: 40%;
+    right: 30%;
+}
 
 
     
@@ -36,9 +42,8 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 
 
-div {
-border: 2px solid blue;
-   }
+
+   
    
    
    
