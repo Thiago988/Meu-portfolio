@@ -18,3 +18,14 @@ console.log('numero4 é o maior')
 } else if (numero5 > numero3 && numero5 > numero4){
     console.log('numero5 é o maior')
 }
+
+let valor1 = true
+let valor2 = false
+
+if (valor1 === true) {
+    console.log('valor positivo')
+} else if (valor2 === false) {
+    console.log('valor negativo')
+} else {
+    console.log('valor = 0')
+}
