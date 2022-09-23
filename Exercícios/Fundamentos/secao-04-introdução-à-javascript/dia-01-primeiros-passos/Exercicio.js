@@ -2,11 +2,19 @@ let numero1 = 30;
 let numero2 = 60;
 
 if (numero1 > numero2) {
-    console.log('Eu sou o maior')
+    console.log('numero1 é o maior')
 } else if (numero1 < numero2) {
-    console.log('Eu sou o menor')
+    console.log('numero2 é o maior')
 } 
 
+let numero3 = 20;
+let numero4 = 40;
+let numero5 = 60;
 
-  
-    
+if (numero3 > numero4 && numero3 > numero5 ) {
+    console.log('numero3 é o maior')
+} else if (numero4 > numero3 && numero4 > numero5) {
+console.log('numero4 é o maior')
+} else if (numero5 > numero3 && numero5 > numero4){
+    console.log('numero5 é o maior')
+}
