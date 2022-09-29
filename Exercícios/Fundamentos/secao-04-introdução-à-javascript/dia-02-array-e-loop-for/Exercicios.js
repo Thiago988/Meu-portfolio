@@ -54,3 +54,19 @@ for (let index = 1; index < numbers5.length; index += 1) {
 }
 
 console.log(higherNumber);
+
+
+let numbers6 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let result3 = 0;
+
+for (let index = 0; index < numbers6.length; index += 1) {
+  if (numbers6[index] % 2 !== 0) {
+    result3 += 1;
+  }
+}
+
+if (result3 === 0) {
+  console.log('nenhum valor ímpar encontrado');
+} else {
+  console.log(result);
+}
