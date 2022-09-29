@@ -24,3 +24,18 @@ for (let index = 0; index < numbers3.length; index += 1) {
 let average = sum / numbers3.length;
 
 console.log(average);
+
+let numbers4 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let result2 = 0;
+
+for (let index = 0; index < numbers4.length; index += 1) {
+  result2 += numbers4[index];
+}
+
+result2 = result2 / numbers4.length;
+
+if (result2 > 20) {
+  console.log('valor maior que 20');
+} else {
+  console.log('valor menor ou igual a 20');
+}
