@@ -29,3 +29,4 @@ if (valor1 === true) {
 } else {
     console.log('valor = 0')
 }
+
