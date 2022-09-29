@@ -12,3 +12,15 @@ for (let index = 0; index < numbers2.length; index += 1) {
 }
 
 console.log(result);
+
+
+let numbers3 = [5, 9, 3, 19, 70, 8, 100, 2, 35, 27];
+let sum = 0;
+
+for (let index = 0; index < numbers3.length; index += 1) {
+  sum += numbers3[index];
+}
+
+let average = sum / numbers3.length;
+
+console.log(average);
