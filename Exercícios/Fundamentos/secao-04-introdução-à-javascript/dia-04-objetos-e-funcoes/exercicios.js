@@ -13,6 +13,8 @@ let info = {
     recorrente: 'Sim',
   };
   
-  for(let properties in info) {
+  for(let properties in info2) {
     console.log(info[properties]);
-  }
+  }   
+
+  
